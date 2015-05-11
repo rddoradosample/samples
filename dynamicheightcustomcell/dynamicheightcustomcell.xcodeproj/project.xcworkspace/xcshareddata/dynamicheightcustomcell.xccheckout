@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D20D4CBA-C35A-4316-9F7C-960BA2DC7A11</string>
+	<key>IDESourceControlProjectName</key>
+	<string>dynamicheightcustomcell</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4A94A03BA5B5BB311BB86E08118D2D83B51C326D</key>
+		<string>https://github.com/rddoradosample/samples.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>dynamicheightcustomcell/dynamicheightcustomcell.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4A94A03BA5B5BB311BB86E08118D2D83B51C326D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rddoradosample/samples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4A94A03BA5B5BB311BB86E08118D2D83B51C326D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4A94A03BA5B5BB311BB86E08118D2D83B51C326D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>samples</string>
+		</dict>
+	</array>
+</dict>
+</plist>

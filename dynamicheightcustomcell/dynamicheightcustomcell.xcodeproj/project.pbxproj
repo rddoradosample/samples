@@ -13,6 +13,10 @@
 		D150E5DC1B00E00B007A8F30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D150E5DB1B00E00B007A8F30 /* Images.xcassets */; };
 		D150E5DF1B00E00B007A8F30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D150E5DD1B00E00B007A8F30 /* LaunchScreen.xib */; };
 		D150E5EB1B00E00B007A8F30 /* dynamicheightcustomcellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D150E5EA1B00E00B007A8F30 /* dynamicheightcustomcellTests.m */; };
+		D150E5FA1B00E2EA007A8F30 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D150E5F91B00E2EA007A8F30 /* NewsTableViewController.m */; };
+		D150E5FE1B00E363007A8F30 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = D150E5FD1B00E363007A8F30 /* News.m */; };
+		D150E6011B00E387007A8F30 /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D150E6001B00E387007A8F30 /* NewsItem.m */; };
+		D150E6051B00E3D1007A8F30 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = D150E6041B00E3D1007A8F30 /* Request.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,14 @@
 		D150E5E41B00E00B007A8F30 /* dynamicheightcustomcellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynamicheightcustomcellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D150E5E91B00E00B007A8F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D150E5EA1B00E00B007A8F30 /* dynamicheightcustomcellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dynamicheightcustomcellTests.m; sourceTree = "<group>"; };
+		D150E5F81B00E2EA007A8F30 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		D150E5F91B00E2EA007A8F30 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		D150E5FC1B00E363007A8F30 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		D150E5FD1B00E363007A8F30 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		D150E5FF1B00E387007A8F30 /* NewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
+		D150E6001B00E387007A8F30 /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
+		D150E6031B00E3D1007A8F30 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		D150E6041B00E3D1007A8F30 /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,10 @@
 		D150E5CD1B00E00B007A8F30 /* dynamicheightcustomcell */ = {
 			isa = PBXGroup;
 			children = (
+				D150E6021B00E3B4007A8F30 /* Request */,
+				D150E5FB1B00E34E007A8F30 /* Data */,
+				D150E5F81B00E2EA007A8F30 /* NewsTableViewController.h */,
+				D150E5F91B00E2EA007A8F30 /* NewsTableViewController.m */,
 				D150E5D21B00E00B007A8F30 /* AppDelegate.h */,
 				D150E5D31B00E00B007A8F30 /* AppDelegate.m */,
 				D150E5D81B00E00B007A8F30 /* Main.storyboard */,
@@ -112,6 +128,26 @@
 				D150E5E91B00E00B007A8F30 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D150E5FB1B00E34E007A8F30 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D150E5FC1B00E363007A8F30 /* News.h */,
+				D150E5FD1B00E363007A8F30 /* News.m */,
+				D150E5FF1B00E387007A8F30 /* NewsItem.h */,
+				D150E6001B00E387007A8F30 /* NewsItem.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D150E6021B00E3B4007A8F30 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				D150E6031B00E3D1007A8F30 /* Request.h */,
+				D150E6041B00E3D1007A8F30 /* Request.m */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D150E5FA1B00E2EA007A8F30 /* NewsTableViewController.m in Sources */,
 				D150E5D41B00E00B007A8F30 /* AppDelegate.m in Sources */,
+				D150E5FE1B00E363007A8F30 /* News.m in Sources */,
+				D150E6011B00E387007A8F30 /* NewsItem.m in Sources */,
 				D150E5D11B00E00B007A8F30 /* main.m in Sources */,
+				D150E6051B00E3D1007A8F30 /* Request.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +454,7 @@
 				D150E5F01B00E00B007A8F30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D150E5F11B00E00B007A8F30 /* Build configuration list for PBXNativeTarget "dynamicheightcustomcellTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +463,7 @@
 				D150E5F31B00E00B007A8F30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
